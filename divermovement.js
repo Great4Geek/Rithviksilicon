@@ -11,6 +11,9 @@ function diver_moves()
       
     }
     
+    john.debug =  true;
+    netsprite.debug = true;
+    
     if(keyDown(UP_ARROW))
     {
       john.angle = 70
