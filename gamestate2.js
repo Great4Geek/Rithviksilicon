@@ -54,17 +54,17 @@ if(keyDown(RIGHT_ARROW))
 
 }
 
-/*if(keyDown(LEFT_ARROW))
+if(keyDown(LEFT_ARROW))
 {
   john.changeAnimation("swimmingleft",swimming) 
   john.x = john.x - 8
 
   //right facing net instructions
-  netsprite.x = john.x-40 ;
+  netsprite.x = john.x-55 ;
   netsprite.y = john.y-10;
   netsprite.changeImage("netleft",netimage);
 
-}*/
+}
 
 //call the player movement file function
 diver_moves();
