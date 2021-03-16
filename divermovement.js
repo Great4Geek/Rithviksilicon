@@ -7,7 +7,7 @@ function diver_moves()
       netsprite.changeImage('netleft',netimage)
       john.x = john.x - 8
       netsprite.x = john.x - 70;
-      netsprite.y = john.y - 40
+      netsprite.y = john.y - 10
       
     }
     
