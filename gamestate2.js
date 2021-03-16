@@ -42,7 +42,7 @@ spawnships();
 
 //john.changeAnimation("swimming",swimming)
 
-if(keyDown(RIGHT_ARROW))
+/*if(keyDown(RIGHT_ARROW))
 {
   john.changeAnimation("swimming",swimming) 
   john.x = john.x + 8
@@ -52,7 +52,7 @@ if(keyDown(RIGHT_ARROW))
   netsprite.y = john.y+50;
   netsprite.changeImage("netright",netrightimage);
 
-}
+}*/
 
 /*if(keyDown(LEFT_ARROW))
 {
