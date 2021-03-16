@@ -25,10 +25,10 @@ if(gamestate ===2){
 }
 
 netsprite.visible = true;
-netsprite.x = john.x;
-netsprite.y = john.y;
+//netsprite.x = john.x +100;
+//netsprite.y = john.y + 50;
 netsprite.scale = 0.2;
-netsprite.addImage(netrightimage)
+//netsprite.addImage(netrightimage)
 
 
 //turtle info:
@@ -42,7 +42,7 @@ spawnships();
 
 //john.changeAnimation("swimming",swimming)
 
-/*if(keyDown(RIGHT_ARROW))
+if(keyDown(RIGHT_ARROW))
 {
   john.changeAnimation("swimming",swimming) 
   john.x = john.x + 8
@@ -52,9 +52,9 @@ spawnships();
   netsprite.y = john.y+50;
   netsprite.changeImage("netright",netrightimage);
 
-}*/
+}
 
-/*if(keyDown(LEFT_ARROW))
+if(keyDown(LEFT_ARROW))
 {
   john.changeAnimation("swimmingleft",swimming) 
   john.x = john.x - 8
@@ -64,13 +64,10 @@ spawnships();
   netsprite.y = john.y-10;
   netsprite.changeImage("netleft",netimage);
 
-}*/
-
+}
 
 //call the player movement file function
 diver_moves();
-
-
 
 sea_urchin.setCollider("rectangle",0,10,100,100)
 sea_urchin2.setCollider("rectangle",0,0,100,100)
@@ -78,8 +75,6 @@ rock.setCollider("rectangle",-5,10,50,80)
 rock2.setCollider("rectangle",0,10,55,80)
 rock3.setCollider("rectangle",5,10,50,80)
 john.setCollider("rectangle",10,5,100,35)
-
-
 
 if(john.isTouching(sea_urchin))
 {
