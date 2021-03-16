@@ -1,7 +1,7 @@
 function diver_moves()
 {
 
-    if(keyDown(LEFT_ARROW))
+    /*if(keyDown(LEFT_ARROW))
     {
       john.changeAnimation("swimmingleft",swimmingleft)
       netsprite.changeImage('netleft',netimage)
@@ -9,7 +9,7 @@ function diver_moves()
       netsprite.x = john.x - 60;
       netsprite.y = john.y
       
-    }
+    }*/
     
     john.debug =  true;
     netsprite.debug = true;
