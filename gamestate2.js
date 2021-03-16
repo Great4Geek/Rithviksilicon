@@ -26,7 +26,7 @@ if(gamestate ===2){
 
 netsprite.visible = true;
 netsprite.x = john.x + 100;
-netsprite.y = john.y+50;
+netsprite.y = john.y+20;
 netsprite.scale = 0.2;
 netsprite.addImage(netrightimage)
 
