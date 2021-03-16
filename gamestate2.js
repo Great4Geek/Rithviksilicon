@@ -60,8 +60,8 @@ if(keyDown(LEFT_ARROW))
   john.x = john.x - 8
 
   //right facing net instructions
-  netsprite.x = john.x ;
-  netsprite.y = john.y+50;
+  netsprite.x = john.x-10 ;
+  netsprite.y = john.y;
   netsprite.changeImage("netleft",netimage);
 
 }
