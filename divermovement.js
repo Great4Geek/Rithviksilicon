@@ -6,7 +6,7 @@ function diver_moves()
       john.changeAnimation("swimmingleft",swimmingleft)
       netsprite.changeImage('netleft',netimage)
       john.x = john.x - 8
-      netsprite.x = john.x;
+      netsprite.x = john.x - 20;
       netsprite.y = john.y
       
     }
