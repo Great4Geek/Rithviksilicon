@@ -16,7 +16,7 @@ function diver_moves()
       john.angle = 70
       john.y = john.y -10;
         //netsprite.x = john.x + 100;
-        //netsprite.y = john.y+50;
+        netsprite.y = john.y+30;
     }
     
     if(keyDown(DOWN_ARROW))
@@ -24,7 +24,7 @@ function diver_moves()
       john.angle = -70
       john.y = john.y +10;
         //netsprite.x = john.x + 100;
-        //netsprite.y = john.y+50;
+        netsprite.y = john.y+30;
     }
 
     if(keyDown(RIGHT_ARROW))
