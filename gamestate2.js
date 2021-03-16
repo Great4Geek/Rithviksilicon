@@ -54,7 +54,7 @@ if(keyDown(RIGHT_ARROW))
 
 }
 
-if(keyDown(LEFT_ARROW))
+/*if(keyDown(LEFT_ARROW))
 {
   john.changeAnimation("swimmingleft",swimming) 
   john.x = john.x - 8
@@ -64,7 +64,7 @@ if(keyDown(LEFT_ARROW))
   netsprite.y = john.y-10;
   netsprite.changeImage("netleft",netimage);
 
-}
+}*/
 
 
 //call the player movement file function
