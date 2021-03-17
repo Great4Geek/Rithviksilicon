@@ -49,7 +49,7 @@ turtlepic = loadImage("images/turtlepic.jpg")
 }
 
 function setup() {
-	createCanvas(displayWidth,displayHeight/1.1);
+	createCanvas(displayWidth/1.5,displayHeight/1.5);
 	background(200);
 
   sadboi = createSprite(displayWidth/2,displayHeight/2,100,100)
